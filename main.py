@@ -1,8 +1,6 @@
 from huggingface_hub import InferenceClient
 from elevenlabs import play
 from elevenlabs.client import ElevenLabs
-import torch
-from TTS.api import TTS
 
 speak_client = ElevenLabs(api_key="sk_f6844abb8728b9950c19ade00376fe2e918b29a39603bb11")
 model_client = InferenceClient(api_key="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")
